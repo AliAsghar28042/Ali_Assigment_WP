@@ -1,0 +1,293 @@
+<html>
+
+<head>
+    <title>Ali Afridi</title>
+</head>
+<style>
+    body {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .container {
+        width: 300px;
+    }
+    
+    .mytext {
+        font-size: 18px;
+    }
+    
+    label {
+        font-size: 22px;
+        font-weight: 400;
+    }
+    
+    input {
+        width: 100%;
+        padding: 8px 10px;
+        outline: none;
+        font-size: 18px;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    button {
+        background-color: rgb(241, 215, 23);
+        padding: 10px 0px;
+        font-size: 18px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    
+    .dropbtn {
+        background-color: inherit;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        left: -40px;
+        background-color: rgb(241, 215, 23);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        margin-right: 10px;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: white;
+        color: black;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .navbar {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(241, 215, 23);
+        padding: 10px 0px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .menu {
+        list-style: none;
+        font-size: 19px;
+    }
+    
+    li>a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .dropbtn {
+        color: black;
+    }
+    
+    .cols {
+        background-color: transparent;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .menu>li {
+        display: inline-block;
+        margin: 0px 10px;
+    }
+    
+    .logo {
+        text-decoration: none;
+        font-size: 30px;
+        color: black;
+        margin-left: 10px;
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .grid-container {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding: 0px 100px;
+    }
+    
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .pagination {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        background-color: white;
+    }
+    
+    a {}
+    
+    .container {
+        margin-top: 200px;
+    }
+    
+    .pagination a.active {
+        background-color: white;
+        color: black;
+    }
+    
+    .pagination a:hover:not(.active) {
+        background-color: yellow;
+    }
+</style>
+
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+            <a href="Ali.html">
+                <a class="logo" href="Ali.html">Ali Afridi</h2>
+            </a>
+        </div>
+        <ul class="menu">
+            <li>
+                <a href="">Info</a>
+            </li>
+            <li>
+                <a href="">Services</a>
+            </li>
+            <li>
+                <a href="">Contact us</a>
+            </li>
+        </ul>
+        <div class="m">
+
+            <a href="SignIn.html">Sign In</a>
+            <div class="dropdown">
+                <button class="dropbtn">Dropdown</button>
+                <div class="dropdown-content">
+                    <a href="reg.html">Profile</a>
+                    <a href="signIn.html">Account</a>
+                    <a href="signIn.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <h1>Ali Register Form</h1>
+        <p class="mytext">Please register below for an event trip</p>
+        <form action="">
+            <label for="">Name </label>
+            <input type="text">
+
+            <label for="">Password </label>
+            <input type="password">
+
+            <label for="">Email </label>
+            <input type="email">
+
+            <button>Sign Up</button>
+
+
+        </form>
+
+
+    </div>
+
+
+    <div class="container2">
+        <h1>Image Gallery</h1>
+        <div class="grid-container">
+            <div class="cols">
+                <img src="https://images.unsplash.com/photo-1597589827317-4c6d6e0a90bd?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160" class="img_gallry" alt="">
+            </div>
+            <div class="cols">
+                <img src="https://images.unsplash.com/photo-1495615080073-6b89c9839ce0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1206" class="img_gallry" alt="">
+            </div>
+            <div class="cols">
+                <img src="https://images.unsplash.com/photo-1504600770771-fb03a6961d33?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1164" class="img_gallry" alt="">
+            </div>
+            <div class="cols">
+                <img src="https://images.unsplash.com/photo-1604573332746-dd5b20e82aa6?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470" class="img_gallry" alt="">
+            </div>
+            <div class="cols">
+                <img src="https://images.unsplash.com/photo-1562376552-0d160a2f238d?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1325" class="img_gallry" alt="">
+            </div>
+            <div class="cols">
+                <img src="https://images.unsplash.com/photo-1594386470865-f1f6fdbcc052?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470" class="img_gallry" alt="">
+            </div>
+            <div class="cols">
+                <img src="https://images.unsplash.com/photo-1589149098258-3e9102cd63d3?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1339" class="img_gallry" alt="">
+            </div>
+            <div class="cols">
+                <img src="https://images.unsplash.com/photo-1445265005361-ae273d6a1e16?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471" class="img_gallry" alt="">
+            </div>
+        </div>
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a class="active" href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
